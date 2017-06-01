@@ -1,0 +1,14 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+        "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module rename-to="FizzBuzzPlusPlus">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='com.fizzBuzzPlusPlus.client.FizzBuzzPlusPlus'/>
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/FizzBuzzPlusPlusService' class='com.fizzBuzzPlusPlus.server.FizzBuzzPlusPlusServiceImpl'/>
+
+</module>
